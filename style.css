@@ -1,0 +1,16 @@
+p
+{
+	color:green;
+	border:solid red;
+}
+.new
+{
+box-shadow: 0px 3px 3px rgba(5,2,5,0.2);
+-moz-box-shadow: 0px 3px 3px rgba(5,2,5,0.2);
+-webkit-box-shadow: 0px 3px 3px rgba(5,2,5,0.2);}
+
+body
+{
+	background-color: green;
+
+}

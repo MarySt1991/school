@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- подключение таблицы стилей-->
+<LINK href="style.css" rel="stylesheet" type="text/css">
+ <!-- Название сайта , которое будет отображаться в заголовке-->
+<title>Документ без названия</title>
+</head>
+
+
+<body background="12.png">
+<p style="color:blue;font-size:12 px;">Привет</p>
+ <!-- Табличная вёрстка сайта <tr> строка,<td> ячейка-->
+<table border="1" cellpadding="5" cellspacing="0" width="100%">
+<tr background="13.jpg" width="100%" height="100%" >
+<th colspan=2><h2><font color="yellow">Основы программирования для детей. Выбирай будущее уже сегодня! <p>8 927 71 33 578</p></font></h2></th>
+</tr>
+<tr>
+<th width="20%">навигация</th>
+<th width="80%">заголовок</th>
+</tr>
+<tr>
+<td width="20%" valign="top">
+<ul>
+<li><a href="index.html" title="Ссылка 1"  class="new" >Ссылка 1</a></li>
+<li><a href="index.html" title="Ссылка 2">Ссылка 2</a></li>
+<li><a href="index.html" title="Ссылка 3">Ссылка 3</a></li>
+</ul>
+</td>
+<td width="80%">
+
+<form action="formdata.php" method="POST" name="form1">
+<!--Объединение полей-->
+<fieldset>
+<legend>Ввод личных данных</legend>
+<!-- текстовые поля-->
+<p align="left"> <label><b><font color="white">Введите Ваше имя:</font></b><input type="text" name="name" size="30" maxlength="15"></label></p>
+<p align="left"> <label><b>Введите Вашу фамилию:</b><input type="text" name="surname" size="30" maxlength="30"></label></p>
+<p align="left"> <label><b>Введите Ваш e-mail:</b><input type="text" name="email" align="center" size="30" maxlength="20"></label></p>
+<p align="left"> <label><b>Логин:</b><input type="text" name="login" align="center" size="30" maxlength="10"></label></p>
+<!-- окно для пароля-->
+<p align="left"> <label><b>Пароль:</b><input type="password" name="password" align="center" size="30" maxlength="8"></label></p>
+</fieldset>
+
+<fieldset>
+<legend>Опрос</legend>
+<!-- Ражиокнопки-->
+<p align="left"> <label><b>Желаете получать новую информацию? </b></p>
+<p align="left"><label> Да<input type= name="checkbox" value="yes" checked> </label><label>Нет<input type="radio" name="checkbox" value="no"></label></p>
+<!-- Чекбоксы-->
+<p align="left"><b>Сколько часов Вы спите?</b></p>
+<p align="left"><label><input type="checkbox" name="sleep8" > 8 часов</label><label><input type="checkbox" name="sleep<8" > Меньше 8 часов</label><label><input type="checkbox" name="sleep>8" > Больше 8 часов</label></p>
+<!--Выпадающий список-->
+<p align="left"><b> Сколько конкретно часов?</b>
+<select name="sleep" size="1" multiple> <option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option selected>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+</p>
+<!--Текстовое поле-->
+<p align="left"><label for="correcttext"><b> Напишите, чтобы Вы изменили в сайте</b></label>
+<!-- cols-задаёт ширину области rows-высоту -->
+<textarea name="correct" cols="100" rows="6" id="correcttext" > </textarea>
+</p>
+</fieldset>
+
+<!-- Кнопки-->
+
+<p> <input type="submit" value="Отправить данные"></p>
+<!--Кнопка очистки-->
+<p> <input type="reset" value="Сбросить данные"></p>
+<!--Кнопка с изображением-->
+<p> <input type="image" src="b6.png"></p>
+
+<p> <input type="button" value="Кнопка" name="кнопка"</p>
+
+
+
+
+
+</td>
+</tr>
+<tr>
+<td colspan=2>Низ сайта (баннеры, счетчики, информация)</td>
+</tr>
+</table>
+</body>
+</html>
